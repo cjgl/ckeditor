@@ -1,8 +1,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>cn.fy</groupId>
-  <artifactId>testmybatis</artifactId>
+  <groupId>cn.cjgl</groupId>
+  <artifactId>ckeditor</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
   <name>testmybatis Maven Webapp</name>
@@ -106,12 +106,12 @@
 	<dependency>
 	    <groupId>com.fasterxml.jackson.core</groupId>
 	    <artifactId>jackson-databind</artifactId>
-	    <version>2.7.4</version>
+	    <version>2.9.7</version>
 	</dependency>
   </dependencies>
   
   <build>
-    <finalName>testmybatis</finalName>
+    <finalName>ckeditor</finalName>
     
     <plugins>  
 		<!-- 解决maven test命令时console出现中文乱码乱码 -->  
